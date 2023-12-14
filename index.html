@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+    <title>LPChar by napsio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.3.67/css/materialdesignicons.min.css">
+</head>
+<body>
+<div class="h-[100vh] flex text-slate-300">
+    <div class="h-full bg-slate-900 w-96 overflow-y-auto">
+        <div class="flex border-b-4 border-violet-600 pt-5 px-5">
+            <button id="panel-button-body" disabled class="bg-violet-600 text-white font-bold py-2 px-4 rounded-t">Body</button>
+            <button id="panel-button-clothing" class="bg-violet-950 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-t">Clothing</button>
+        </div>
+
+        <div id="panel-layer-body" class="p-5 flex flex-col gap-5">
+            <div class="text-xl leading-none">Body</div>
+            <div class="text-lg leading-none">Type</div>
+            <div class="flex">
+                <select id="body-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                </select>
+                <label id="body-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="body-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+
+            <div class="text-lg leading-none">Head</div>
+            <div class="flex">
+                <select id="head-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                </select>
+                <label id="head-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="head-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+
+            <div class="text-lg leading-none">Eye Color</div>
+            <div class="flex">
+                <select id="head-overlays-eyes-part" class="hidden bg-white w-0 text-black rounded-l p-2">
+                    <option value="">Select eye color...</option>
+                </select>
+                <label id="head-overlays-eyes-label"
+                       class="w-full text-black rounded p-0 border-4 border-white relative z-[10]">&nbsp;
+                    <select id="head-overlays-eyes-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+
+            <div class="text-lg leading-none">Hair</div>
+            <div class="flex">
+                <select id="hair-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Hair...</option>
+                </select>
+                <label id="hair-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="hair-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+
+            <div class="text-lg leading-none">Eyebrows</div>
+            <div class="flex">
+                <select id="eyebrows-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Eyebrows...</option>
+                </select>
+                <label id="eyebrows-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="eyebrows-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+
+            <div class="text-lg leading-none">Facial Hair</div>
+            <div class="flex">
+                <select id="facial-hair-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Facial Hair...</option>
+                </select>
+                <label id="facial-hair-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="facial-hair-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+
+            <div class="text-lg leading-none">Large Nose</div>
+            <div class="flex">
+                <select id="head-overlays-large-nose-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+                <label id="head-overlays-large-nose-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="head-overlays-large-nose-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+        </div>
+        <div id="panel-layer-clothing" class="hidden p-5 flex flex-col gap-5">
+
+
+            <div class="text-xl leading-none">Clothing</div>
+
+            <div class="text-lg leading-none">Feet</div>
+            <div class="text-base leading-none">Shoes</div>
+            <div class="flex">
+                <select id="clothing-feed-shoes-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Shoes...</option>
+                </select>
+                <label id="clothing-feed-shoes-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-feed-shoes-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-base leading-none">Socks</div>
+            <div class="flex">
+                <select id="clothing-feed-socks-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Socks...</option>
+                </select>
+                <label id="clothing-feed-socks-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-feed-socks-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-lg leading-none">Legs</div>
+            <div class="flex">
+                <select id="clothing-legs-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Pants...</option>
+                </select>
+                <label id="clothing-legs-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-legs-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-lg leading-none">Torso</div>
+            <div class="text-base leading-none">Shirt</div>
+            <div class="flex">
+                <select id="clothing-torso-shirt-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Shirt...</option>
+                </select>
+                <label id="clothing-torso-shirt-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-torso-shirt-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-lg leading-none">Torso 2</div>
+            <div class="text-base leading-none">Accessory</div>
+            <div class="flex">
+                <select id="clothing-torso2-accessory-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Accessory...</option>
+                </select>
+                <label id="clothing-torso2-accessory-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-torso2-accessory-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-base leading-none">Sweater</div>
+            <div class="flex">
+                <select id="clothing-torso2-sweater-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Sweater...</option>
+                </select>
+                <label id="clothing-torso2-sweater-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-torso2-sweater-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-lg leading-none">Accessories</div>
+            <div class="text-base leading-none">Neckwear</div>
+            <div class="flex">
+                <select id="clothing-accessories-neckwear-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Neckwear...</option>
+                </select>
+                <label id="clothing-accessories-neckwear-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="clothing-accessories-neckwear-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+            <div class="text-base leading-none">Eyewear</div>
+            <div class="flex">
+                <select id="eyewear-part" class="bg-white w-10/12 text-black rounded-l p-2">
+                    <option value="">Select Eyewear...</option>
+                </select>
+                <label id="eyewear-label"
+                       class="w-2/12 text-black rounded-r p-0 border-4 border-white relative z-[10]">
+                    <select id="eyewear-color"
+                            class="color-select w-full rounded p-2 absolute z-[9] bg-transparent text-transparent"></select>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="h-full bg-slate-950 flex-grow overflow-y-auto p-5">
+
+        <div id="pose" class="flex gap-5">
+            <button value="idle" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Idle
+            </button>
+            <button value="walk" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Walk
+            </button>
+            <button value="run" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Run
+            </button>
+            <button value="emotes" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Emotes
+            </button>
+            <button value="legacySwing"
+                    class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Legacy Swing
+            </button>
+            <button value="jump" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Jump
+            </button>
+            <button value="climb" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Climb
+            </button>
+            <button value="sit" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Sit
+            </button>
+            <button value="combatBackslash"
+                    class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Combat Backslash
+            </button>
+            <button value="combatHalfslash"
+                    class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Combat Halfslash
+            </button>
+            <button value="combatIdle" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Combat Idle
+            </button>
+            <button value="combatSlash"
+                    class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                Combat Slash
+            </button>
+        </div>
+
+        <div id="canvas" class="mt-5 w-fit" style="background-image: url(delimiter.png)">
+            <canvas id="idle" class="" width="192" height="256"></canvas>
+            <canvas id="walk" class="hidden" width="512" height="256"></canvas>
+            <canvas id="run" class="hidden" width="512" height="256"></canvas>
+            <canvas id="emotes" class="hidden" width="192" height="256"></canvas>
+            <canvas id="legacySwing" class="hidden" width="384" height="256"></canvas>
+            <canvas id="jump" class="hidden" width="384" height="256"></canvas>
+            <canvas id="climb" class="hidden" width="384" height="64"></canvas>
+            <canvas id="sit" class="hidden" width="192" height="256"></canvas>
+            <canvas id="combatBackslash" class="hidden" width="768" height="256"></canvas>
+            <canvas id="combatHalfslash" class="hidden" width="384" height="256"></canvas>
+            <canvas id="combatIdle" class="hidden" width="128" height="256"></canvas>
+            <canvas id="combatSlash" class="hidden" width="448" height="256"></canvas>
+        </div>
+
+    </div>
+    <div class="h-full bg-slate-900 w-96 p-5 flex flex-col gap-5">
+        <div>
+            <div class="text-xl">Preview</div>
+
+            <div class="flex justify-center">
+                <div class="grid grid-rows-3 grid-cols-3 gap-4 text-center w-32">
+                    <div>
+                        <button id="preview-zoom-out"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 disabled:bg-violet-900 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-magnify-minus-outline"></span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="preview-up"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-arrow-up"></span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="preview-zoom-in"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 disabled:bg-violet-900 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-magnify-plus-outline"></span>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button id="preview-left"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-arrow-left"></span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="preview-pause"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-pause"></span>
+                        </button>
+                        <button id="preview-play"
+                                class="hidden aspect-square bg-violet-600 hover:bg-violet-700 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-play"></span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="preview-right"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-arrow-right"></span>
+                        </button>
+                    </div>
+
+                    <div></div>
+                    <div>
+                        <button id="preview-down"
+                                class="aspect-square bg-violet-600 hover:bg-violet-700 text-white font-bold p-2 rounded h-8 leading-none">
+                            <span class="mdi mdi-arrow-down"></span>
+                        </button>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+
+            <div class="flex justify-center my-5">
+                <div id="preview"
+                     class="w-[64px] h-[64px] relative pointer-events-none origin-center bg-cover border border-slate-950"
+                     style="image-rendering: pixelated;">
+                    <canvas id="preview-canvas" width="64" height="64" class="hidden"></canvas>
+                </div>
+            </div>
+            <div>
+                <div class="text-xl mb-5">Credits</div>
+
+                <div class="flex flex-col gap-5">
+                    <button id="download-current"
+                            class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                        Download current
+                    </button>
+                    <button id="download-all"
+                            class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                        Download all
+                    </button>
+                    <button id="download-credits"
+                            class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">
+                        Download credits
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+</html>

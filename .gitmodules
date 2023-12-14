@@ -1,0 +1,3 @@
+[submodule "LPC"]
+	path = LPC
+	url = https://github.com/ElizaWy/LPC.git

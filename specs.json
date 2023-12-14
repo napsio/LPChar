@@ -1,0 +1,950 @@
+{
+    "colors": {
+        "skin": {
+            "porcelain": {
+                "name": "Porcelain",
+                "color": "#edc5a8"
+            },
+            "ivory": {
+                "name": "Ivory",
+                "color": "#e4a47c"
+            },
+            "peach": {
+                "name": "Peach",
+                "color": "#d38b59"
+            },
+            "tan": {
+                "name": "Tan",
+                "color": "#c07a4b"
+            },
+            "tawny": {
+                "name": "Tawny",
+                "color": "#ae6b3f"
+            },
+            "honey": {
+                "name": "Honey",
+                "color": "#7f4c31"
+            },
+            "bronze": {
+                "name": "Bronze",
+                "color": "#603429"
+            },
+            "brown": {
+                "name": "Brown",
+                "color": "#442725"
+            },
+            "coffee": {
+                "name": "Coffee",
+                "color": "#2e1f1c"
+            }
+        },
+        "eyes": {
+            "black": {
+                "name": "Black",
+                "color": "#382b33"
+            },
+            "blue": {
+                "name": "Blue",
+                "color": "#253a5e"
+            },
+            "brown": {
+                "name": "Brown",
+                "color": "#603429"
+            },
+            "gray": {
+                "name": "Gray",
+                "color": "#595e70"
+            },
+            "green": {
+                "name": "Green",
+                "color": "#456238"
+            },
+            "hazel": {
+                "name": "Hazel",
+                "color": "#75502d"
+            },
+            "purple": {
+                "name": "Purple",
+                "color": "#792a53"
+            }
+        },
+        "hair": {
+            "ashBrown": {
+                "name": "Ash Brown",
+                "color": "#75502d"
+            },
+            "black": {
+                "name": "Black",
+                "color": "#251f25"
+            },
+            "blonde": {
+                "name": "Blonde",
+                "color": "#d19428"
+            },
+            "blue": {
+                "name": "Blue",
+                "color": "#293982"
+            },
+            "brown": {
+                "name": "Brown",
+                "color": "#603429"
+            },
+            "charcoal": {
+                "name": "Charcoal",
+                "color": "#382b33"
+            },
+            "chestnut": {
+                "name": "Chestnut",
+                "color": "#7f4c31"
+            },
+            "gray": {
+                "name": "Gray",
+                "color": "#4b4b60"
+            },
+            "green": {
+                "name": "Green",
+                "color": "#468232"
+            },
+            "orange": {
+                "name": "Orange",
+                "color": "#cf6f30"
+            },
+            "pink": {
+                "name": "Pink",
+                "color": "#ef747e"
+            },
+            "platinum": {
+                "name": "Platinum",
+                "color": "#eecc8c"
+            },
+            "purple": {
+                "name": "Purple",
+                "color": "#4c3b64"
+            },
+            "raven": {
+                "name": "Raven",
+                "color": "#29253a"
+            },
+            "red": {
+                "name": "Red",
+                "color": "#95381c"
+            },
+            "ruby": {
+                "name": "Ruby",
+                "color": "#7b2008"
+            },
+            "silver": {
+                "name": "Silver",
+                "color": "#818e97"
+            },
+            "teal": {
+                "name": "Teal",
+                "color": "#217087"
+            },
+            "violet": {
+                "name": "Violet",
+                "color": "#792a53"
+            },
+            "white": {
+                "name": "White",
+                "color": "#c4b59f"
+            }
+        },
+        "clothing": {
+            "white": {
+                "name": "White",
+                "color": "#d8d4c0"
+            },
+            "dove": {
+                "name": "Dove",
+                "color": "#c4b59f"
+            },
+            "pearl": {
+                "name": "Pearl",
+                "color": "#ad988e"
+            },
+            "smoke": {
+                "name": "Smoke",
+                "color": "#6f6464"
+            },
+            "charcoal": {
+                "name": "Charcoal",
+                "color": "#382b33"
+            },
+            "ice": {
+                "name": "Ice",
+                "color": "#c7cfcc"
+            },
+            "silver": {
+                "name": "Silver",
+                "color": "#818e97"
+            },
+            "gray": {
+                "name": "Gray",
+                "color": "#6a7587"
+            },
+            "shadow": {
+                "name": "Shadow",
+                "color": "#4b4b60"
+            },
+            "black": {
+                "name": "Black",
+                "color": "#29253a"
+            },
+            "oak": {
+                "name": "Oak",
+                "color": "#946b44"
+            },
+            "leather": {
+                "name": "Leather",
+                "color": "#75502d"
+            },
+            "chocolate": {
+                "name": "Chocolate",
+                "color": "#61482c"
+            },
+            "umber": {
+                "name": "Umber",
+                "color": "#40361d"
+            },
+            "soot": {
+                "name": "Soot",
+                "color": "#2b2511"
+            },
+            "porcelain": {
+                "name": "Porcelain",
+                "color": "#edc5a8"
+            },
+            "ivory": {
+                "name": "Ivory",
+                "color": "#e4a47c"
+            },
+            "peach": {
+                "name": "Peach",
+                "color": "#d38b59"
+            },
+            "tan": {
+                "name": "Tan",
+                "color": "#c07a4b"
+            },
+            "tawny": {
+                "name": "Tawny",
+                "color": "#ae6b3f"
+            },
+            "honey": {
+                "name": "Honey",
+                "color": "#7f4c31"
+            },
+            "bronze": {
+                "name": "Bronze",
+                "color": "#603429"
+            },
+            "brown": {
+                "name": "Brown",
+                "color": "#442725"
+            },
+            "coffee": {
+                "name": "Coffee",
+                "color": "#2e1f1c"
+            },
+            "apricot": {
+                "name": "Apricot",
+                "color": "#ff8c68"
+            },
+            "salmon": {
+                "name": "Salmon",
+                "color": "#cd543d"
+            },
+            "coral": {
+                "name": "Coral",
+                "color": "#99423c"
+            },
+            "orange": {
+                "name": "Orange",
+                "color": "#cf6f30"
+            },
+            "redOrange": {
+                "name": "Red Orange",
+                "color": "#b54936"
+            },
+            "red": {
+                "name": "Red",
+                "color": "#7b2008"
+            },
+            "garnet": {
+                "name": "Garnet",
+                "color": "#591414"
+            },
+            "wine": {
+                "name": "Wine",
+                "color": "#3e111a"
+            },
+            "beige": {
+                "name": "Beige",
+                "color": "#f8bb76"
+            },
+            "linen": {
+                "name": "Linen",
+                "color": "#e09b4c"
+            },
+            "sepia": {
+                "name": "Sepia",
+                "color": "#ae6b3f"
+            },
+            "yellow": {
+                "name": "Yellow",
+                "color": "#f3c35f"
+            },
+            "tumeric": {
+                "name": "Tumeric",
+                "color": "#d19428"
+            },
+            "amber": {
+                "name": "Amber",
+                "color": "#a16018"
+            },
+            "lemon": {
+                "name": "Lemon",
+                "color": "#dbbd00"
+            },
+            "ochre": {
+                "name": "Ochre",
+                "color": "#bba51c"
+            },
+            "mustard": {
+                "name": "Mustard",
+                "color": "#836332"
+            },
+            "spring": {
+                "name": "Spring",
+                "color": "#75a743"
+            },
+            "apple": {
+                "name": "Apple",
+                "color": "#468232"
+            },
+            "green": {
+                "name": "Green",
+                "color": "#30642f"
+            },
+            "emerald": {
+                "name": "Emerald",
+                "color": "#1c4525"
+            },
+            "mint": {
+                "name": "Mint",
+                "color": "#86b278"
+            },
+            "olivine": {
+                "name": "Olivine",
+                "color": "#5f874d"
+            },
+            "fern": {
+                "name": "Fern",
+                "color": "#456238"
+            },
+            "swamp": {
+                "name": "Swamp",
+                "color": "#314829"
+            },
+            "forest": {
+                "name": "Forest",
+                "color": "#19332d"
+            },
+            "cyan": {
+                "name": "Cyan",
+                "color": "#2a8598"
+            },
+            "cerulean": {
+                "name": "Cerulean",
+                "color": "#217087"
+            },
+            "teal": {
+                "name": "Teal",
+                "color": "#18506f"
+            },
+            "neptune": {
+                "name": "Neptune",
+                "color": "#4f889d"
+            },
+            "aegean": {
+                "name": "Aegean",
+                "color": "#3a5a72"
+            },
+            "denim": {
+                "name": "Denim",
+                "color": "#253a5e"
+            },
+            "cornflower": {
+                "name": "Cornflower",
+                "color": "#4f8fba"
+            },
+            "powder": {
+                "name": "Powder",
+                "color": "#3c5e8b"
+            },
+            "midnight": {
+                "name": "Midnight",
+                "color": "#0d283e"
+            },
+            "sky": {
+                "name": "Sky",
+                "color": "#588de2"
+            },
+            "azure": {
+                "name": "Azure",
+                "color": "#4273c9"
+            },
+            "blue": {
+                "name": "Blue",
+                "color": "#324f9a"
+            },
+            "royal": {
+                "name": "Royal",
+                "color": "#293982"
+            },
+            "navy": {
+                "name": "Navy",
+                "color": "#1d2560"
+            },
+            "blueViolet": {
+                "name": "Blue Violet",
+                "color": "#636fc7"
+            },
+            "lavender": {
+                "name": "Lavender",
+                "color": "#a4b0dc"
+            },
+            "amethyst": {
+                "name": "Amethyst",
+                "color": "#988fba"
+            },
+            "indigo": {
+                "name": "Indigo",
+                "color": "#655788"
+            },
+            "purple": {
+                "name": "Purple",
+                "color": "#4c3b64"
+            },
+            "periwinkle": {
+                "name": "Periwinkle",
+                "color": "#ae7771"
+            },
+            "heather": {
+                "name": "Heather",
+                "color": "#a1626b"
+            },
+            "mauve": {
+                "name": "Mauve",
+                "color": "#914d68"
+            },
+            "pink": {
+                "name": "Pink",
+                "color": "#ef747e"
+            },
+            "cerise": {
+                "name": "Cerise",
+                "color": "#aa3a6a"
+            },
+            "plum": {
+                "name": "Plum",
+                "color": "#5e2043"
+            }
+        },
+        "metal": {
+            "brass": {
+                "name": "Brass",
+                "color": "#b08a36"
+            },
+            "bronze": {
+                "name": "Bronze",
+                "color": "#794118"
+            },
+            "copper": {
+                "name": "Copper",
+                "color": "#b54936"
+            },
+            "gold": {
+                "name": "Gold",
+                "color": "#d19529"
+            },
+            "iron": {
+                "name": "Iron",
+                "color": "#52414a"
+            },
+            "silver": {
+                "name": "Silver",
+                "color": "#a8b3b8"
+            },
+            "steel": {
+                "name": "Steel",
+                "color": "#867e7f"
+            }
+        }
+    },
+    "poses": {
+        "climb": {
+            "name": "Climb"
+        },
+        "emotes": {
+            "name": "Emotes"
+        },
+        "idle": {
+            "name": "Idle"
+        },
+        "jump": {
+            "name": "Jump"
+        },
+        "legacySwing": {
+            "name": "Legacy - Swing"
+        },
+        "run": {
+            "name": "Run"
+        },
+        "sit": {
+            "name": "Sitting"
+        },
+        "walk": {
+            "name": "Walk"
+        },
+        "combatBackslash": {
+            "name": "Combat 1h - Backslash"
+        },
+        "combatHalfslash": {
+            "name": "Combat 1h - Halfslash"
+        },
+        "combatIdle": {
+            "name": "Combat 1h - Idle"
+        },
+        "combatSlash": {
+            "name": "Combat 1h - Slash"
+        }
+    },
+    "parts": {
+        "body": {
+            "feminine-thin": {
+                "name": "Feminine, thin",
+                "path": "LPC\/Characters\/Body\/Body 01 - Feminine, Thin\/",
+                "credits": "Body - Feminine, Thin"
+            },
+            "masculine-thin": {
+                "name": "Masculine, thin",
+                "path": "LPC\/Characters\/Body\/Body 02 - Masculine, Thin\/",
+                "credits": "Body - Masculine, Thin"
+            }
+        },
+        "head": {
+            "masculine": {
+                "name": "Feminine",
+                "path": "LPC\/Characters\/Head\/Head 01 - Feminine\/",
+                "credits": "Adult Head - Feminine"
+            },
+            "feminine": {
+                "name": "Masculine",
+                "path": "LPC\/Characters\/Head\/Head 02 - Masculine\/",
+                "credits": "Adult Head - Masculine"
+            },
+            "elderly": {
+                "name": "Elderly",
+                "path": "LPC\/Characters\/Head\/Head 03 - Elderly\/",
+                "credits": "Adult Head - Elderly"
+            }
+        },
+        "clothing": {
+            "accessories": {
+                "neckwear": {
+                    "bowtie": {
+                        "name": "Bowtie",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Accessories\/Neckwear 01 - Bowtie\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Accessories\/Neckwear 01 - Bowtie\/"
+                        },
+                        "credits": "Neckwear 01 - Bowtie"
+                    }
+                }
+            },
+            "feed": {
+                "shoes": {
+                    "shoes": {
+                        "name": "Shoes",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Feet\/Shoes 01 - Shoes\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Feet\/Shoes 01 - Shoes\/"
+                        },
+                        "credits": "Shoes 01 - Shoes"
+                    },
+                    "boots": {
+                        "name": "Boots",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Feet\/Shoes 02 - Boots\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Feet\/Shoes 02 - Boots\/"
+                        },
+                        "credits": "Shoes 02 - Boots"
+                    }
+                },
+                "socks": {
+                    "ankle-socks": {
+                        "name": "Ankle Socks",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Feet\/Socks 01 - Ankle Socks\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Feet\/Socks 01 - Ankle Socks\/"
+                        },
+                        "credits": "Socks 01 - Ankle Socks"
+                    },
+                    "high-socks": {
+                        "name": "High Socks",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Feet\/Socks 02 - High Socks\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Feet\/Socks 02 - High Socks\/"
+                        },
+                        "credits": "Socks 02 - High Socks"
+                    }
+                }
+            },
+            "legs": {
+                "hose": {
+                    "name": "Hose",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Pants 01 - Hose\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 01 - Hose\/"
+                    },
+                    "credits": "Pants 01 - Hose"
+                },
+                "leggings": {
+                    "name": "Leggings",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Pants 02 - Leggings\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 02 - Leggings\/"
+                    },
+                    "credits": "Pants 02 - Leggings"
+                },
+                "pants": {
+                    "name": "Pants",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Pants 03 - Pants\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 03 - Pants\/"
+                    },
+                    "credits": "Pants 03 - Pants"
+                },
+                "cuffed-pants": {
+                    "name": "Cuffed Pants",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Pants 04 - Cuffed Pants\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 04 - Cuffed Pants\/"
+                    },
+                    "credits": "Pants 04 - Cuffed Pants"
+                },
+                "overalls": {
+                    "name": "Overalls",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Pants 05 - Overalls\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 05 - Overalls\/"
+                    },
+                    "credits": "Pants 05 - Overalls"
+                },
+                "shorts": {
+                    "name": "Shorts",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Shorts 01 - Shorts\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 01 - Shorts\/"
+                    },
+                    "credits": "Shorts 01 - Shorts"
+                },
+                "short-shorts": {
+                    "name": "Short Shorts",
+                    "path": {
+                        "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Legs\/Shorts 02 - Short Shorts\/",
+                        "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Legs\/Pants 02 - Short Shorts\/"
+                    },
+                    "credits": "Shorts 02 - Short Shorts"
+                }
+            },
+            "torso": {
+                "shirt": {
+                    "longsleeve-shirt": {
+                        "name": "Longsleeve Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 01 - Longsleeve Shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 01 - Longsleeve Shirt\/"
+                        },
+                        "credits": "Shirt 01 - Longsleeve Shirt"
+                    },
+                    "v-neck-longsleeve-shirt": {
+                        "name": "V-neck Longsleeve Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 02 - V-neck Longsleeve Shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 02 - V-neck Longsleeve Shirt\/"
+                        },
+                        "credits": "Shirt 02 - V-neck Longsleeve Shirt"
+                    },
+                    "scoop-longsleeve-shirt": {
+                        "name": "Scoop Longsleeve Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 03 - Scoop Longsleeve Shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 03 - Scoop Longsleeve Shirt\/"
+                        },
+                        "credits": "Shirt 03 - Scoop Longsleeve Shirt"
+                    },
+                    "t-shirt": {
+                        "name": "T-Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 04 - T-shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 04 - T-shirt\/"
+                        },
+                        "credits": "Shirt 04 - T-shirt"
+                    },
+                    "v-neck-t-shirt": {
+                        "name": "V-neck T-Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 05 - V-neck T-shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 05 - V-neck T-shirt\/"
+                        },
+                        "credits": "Shirt 05 - V-neck T-shirt"
+                    },
+                    "scoop-t-shirt": {
+                        "name": "Scoop T-Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 06 - Scoop T-shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 06 - Scoop T-shirt\/"
+                        },
+                        "credits": "Shirt 06 - Scoop T-shirt"
+                    },
+                    "buttoned-longsleeve-shirt": {
+                        "name": "Buttoned Longsleeve Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 07 - Buttoned Longsleeve Shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 07 - Buttoned Longsleeve Shirt\/"
+                        },
+                        "credits": "Shirt 07 - Buttoned Longsleeve Shirt"
+                    },
+                    "buttoned-t-shirt": {
+                        "name": "Buttoned T-Shirt",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 08 - Buttoned T-shirt\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 08 - Buttoned T-shirt\/"
+                        },
+                        "credits": "Shirt 08 - Buttoned T-shirt"
+                    },
+                    "polo": {
+                        "name": "Polo",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso\/Shirt 09 - Polo\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso\/Shirt 09 - Polo\/"
+                        },
+                        "credits": "Shirt 09 - Polo"
+                    }
+                }
+            },
+            "torso2": {
+                "accessory": {
+                    "suspenders": {
+                        "name": "Suspenders",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso 2\/Accessory 01 - Suspenders\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso 2\/Accessory 01 - Suspenders\/"
+                        },
+                        "credits": "Accessory 01 - Suspenders"
+                    }
+                },
+                "sweater": {
+                    "cardigan": {
+                        "name": "Cardigan",
+                        "path": {
+                            "body.feminine-thin": "LPC\/Characters\/Clothing\/Feminine, Thin\/Torso 2\/Sweater 01 - Cardigan\/",
+                            "body.masculine-thin": "LPC\/Characters\/Clothing\/Masculine, Thin\/Torso 2\/Sweater 01 - Cardigan\/"
+                        },
+                        "credits": "Sweater 01 - Cardigan"
+                    }
+                }
+            }
+        },
+        "headOverlays": {
+            "eyes": {
+                "name": "Eyes",
+                "path": "LPC\/Characters\/Head\/Head Overlay - Eyes\/",
+                "credits": null
+            },
+            "largeNose": {
+                "name": "Large Nose",
+                "path": "LPC\/Characters\/Head\/Head Overlay 01 - Large Nose\/",
+                "credits": null
+            }
+        },
+        "eyewear": {
+            "glasses": {
+                "name": "Glasses",
+                "path": "LPC\/Characters\/Head Accessories\/Eyewear 01 - Glasses\/",
+                "credits": "Glasses, Halfmoon Glasses"
+            },
+            "halfmoonGlasses": {
+                "name": "Halfmoon Glasses",
+                "path": "LPC\/Characters\/Head Accessories\/Eyewear 02 - Halfmoon Glasses\/",
+                "credits": "Glasses, Halfmoon Glasses"
+            },
+            "eyepatch": {
+                "name": "Eyepatch",
+                "path": "LPC\/Characters\/Head Accessories\/Eyewear 03 - Eyepatch\/"
+            }
+        },
+        "hair": {
+            "mediumPage": {
+                "name": "Medium Page",
+                "path": "LPC/Characters/Hair/Medium 01 - Page/",
+                "background": true,
+                "credits": "Medium 01 - Page"
+            },
+            "mediumCurly": {
+                "name": "Medium Curly",
+                "path": "LPC/Characters/Hair/Medium 02 - Curly/",
+                "background": true,
+                "credits": "Medium 02 - Curly"
+            },
+            "mediumIdol": {
+                "name": "Medium Idol",
+                "path": "LPC/Characters/Hair/Medium 03 - Idol/",
+                "background": false,
+                "credits": "Medium 03 - Idol"
+            },
+            "mediumBangsAndBun": {
+                "name": "Medium Bangs & Bun",
+                "path": "LPC/Characters/Hair/Medium 04 - Bangs & Bun/",
+                "background": false,
+                "credits": "Medium 04 - Bangs & Bun"
+            },
+            "mediumCornrows": {
+                "name": "Medium Cornrows",
+                "path": "LPC/Characters/Hair/Medium 05 - Cornrows/",
+                "background": false,
+                "credits": "Medium 05 - Cornrows"
+            },
+            "mediumDreadlocks": {
+                "name": "Medium Dreadlocks",
+                "path": "LPC/Characters/Hair/Medium 06 - Dreadlocks/",
+                "background": false,
+                "credits": "Medium 06 - Dreadlocks"
+            },
+            "mediumBobSidePart": {
+                "name": "Medium Bob, Side Part",
+                "path": "LPC/Characters/Hair/Medium 07 - Bob, Side Part/",
+                "background": false,
+                "credits": "Medium 07 - Bob, Side Part"
+            },
+            "mediumBobBangs": {
+                "name": "Medium Bob, Bangs",
+                "path": "LPC/Characters/Hair/Medium 08 - Bob, Bangs/",
+                "background": false,
+                "credits": "Medium 08 - Bob, Bangs"
+            },
+            "mediumTwists": {
+                "name": "Medium Twists",
+                "path": "LPC/Characters/Hair/Medium 09 - Twists/",
+                "background": false,
+                "credits": "Medium 09 - Twists"
+            },
+            "mediumTwistsFade": {
+                "name": "Medium Twists, Fade",
+                "path": "LPC/Characters/Hair/Medium 10 - Twists, Fade/",
+                "background": false,
+                "credits": "Medium 10 - Twists, Fade"
+            },
+            "shortBuzzcut": {
+                "name": "Short Buzzcut",
+                "path": "LPC/Characters/Hair/Short 01 - Buzzcut/",
+                "background": false,
+                "credits": "Short 01 - Buzzcut"
+            },
+            "shortParted": {
+                "name": "Short Parted",
+                "path": "LPC/Characters/Hair/Short 02 - Parted/",
+                "background": false,
+                "credits": "Short 02 - Parted"
+            },
+            "shortCurly": {
+                "name": "Short Curly",
+                "path": "LPC/Characters/Hair/Short 03 - Curly/",
+                "background": false,
+                "credits": "Short 03 - Curly"
+            },
+            "shortCowlick": {
+                "name": "Short Cowlick",
+                "path": "LPC/Characters/Hair/Short 04 - Cowlick/",
+                "background": false,
+                "credits": "Short 04 - Cowlick"
+            },
+            "shortNatural": {
+                "name": "Short Natural",
+                "path": "LPC/Characters/Hair/Short 05 - Natural/",
+                "background": false,
+                "credits": "Short 05 - Natural"
+            },
+            "shortBalding": {
+                "name": "Short Balding",
+                "path": "LPC/Characters/Hair/Short 06 - Balding/",
+                "background": false,
+                "credits": "Short 06 - Balding"
+            },
+            "shortFlatTop": {
+                "name": "Short Flat Top",
+                "path": "LPC/Characters/Hair/Short 07 - Flat Top/",
+                "background": false,
+                "credits": "Short 07 - Flat Top"
+            },
+            "shortFlatTopFade": {
+                "name": "Short Flat Top, Fade",
+                "path": "LPC/Characters/Hair/Short 08 - Flat Top, Fade/",
+                "background": false,
+                "credits": "Short 08 - Flat Top, Fade"
+            }
+        },
+        "eyebrows": {
+            "thin": {
+                "name": "Thin",
+                "path": "LPC/Characters/Hair/Eyebrows 01 - Thin Eyebrows/",
+                "credits": null
+            },
+            "thick": {
+                "name": "Thick",
+                "path": "LPC/Characters/Hair/Eyebrows 02 - Thick Eyebrows/",
+                "credits": null
+            }
+        },
+        "facialHair": {
+            "walrusMustache": {
+                "name": "Walnus Mustache",
+                "path": "LPC/Characters/Hair/Facial Hair 01 - Walrus Mustache/",
+                "credits": null
+            },
+            "chevronMustache": {
+                "name": "Chevron Mustache",
+                "path": "LPC/Characters/Hair/Facial Hair 02 - Chevron Mustache/",
+                "credits": null
+            },
+            "handlebarMustache": {
+                "name": "Handlebar Mustache",
+                "path": "LPC/Characters/Hair/Facial Hair 03 - Handlebar Mustache/",
+                "credits": null
+            },
+            "lampshadeMustache": {
+                "name": "Lampshade Mustache",
+                "path": "LPC/Characters/Hair/Facial Hair 04 - Lampshade Mustache/",
+                "credits": null
+            },
+            "horseshoeMustache": {
+                "name": "Horseshoe Mustache",
+                "path": "LPC/Characters/Hair/Facial Hair 05 - Horseshoe Mustache/",
+                "credits": null
+            },
+            "trimmedBeard": {
+                "name": "Trimmed Beard",
+                "path": "LPC/Characters/Hair/Facial Hair 06 - Trimmed Beard/",
+                "credits": null
+            },
+            "mediumBeard": {
+                "name": "Medium Beard",
+                "path": "LPC/Characters/Hair/Facial Hair 07 - Medium Beard/",
+                "credits": null
+            }
+        }
+    }
+}
